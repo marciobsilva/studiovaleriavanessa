@@ -1,0 +1,38 @@
+let infoData = [
+  {
+    img_src: "./assets/eyelashes/classico.jpeg",
+    title: "Extensão fio a fio (Clássico)",
+    info: "A técnica clássica, que também é conhecida como fio a fio, é a que dá o resultado mais natural. Isso porque é adicionado apenas um fio sintético a cada fio natural.",
+    first_time: "Aplicação R$ 100,00",
+    eyelash_maintenance_1: "15 dias R$ 50,00",
+    eyelash_maintenance_2: "20 dias R$ 60,00",
+    eyelash_maintenance_3: "30 dias R$ 70,00",
+  },
+  {
+    img_src: "./assets/eyelashes/brasileiro.jpeg",
+    title: "Volume brasileiro",
+    info: "O Volume brasileiro, o queridinho das meninas, consiste é algo mais cheio sem peder tanto a naturalidade, corrige falhas e deixa o olhar mais atraente.",
+    first_time: "Aplicação R$ 120,00",
+    eyelash_maintenance_1: "15 dias R$ 55,00",
+    eyelash_maintenance_2: "20 dias R$ 65,00",
+    eyelash_maintenance_3: "30 dias R$ 75,00",
+  },
+  {
+    img_src: "./assets/eyelashes/hibrido.jpeg",
+    title: "Volume Hibrído",
+    info: "O volume hibrido é o meio termo, nem muito cheio; nem pouco demais. Assim como o brasileiro ele corrige as falhas e destaca o olhar, o que diferencia ele do brasileiro é o formato do fio.",
+    first_time: "Aplicação R$ 130,00",
+    eyelash_maintenance_1: "15 dias R$ 55,00",
+    eyelash_maintenance_2: "20 dias R$ 65,00",
+    eyelash_maintenance_3: "30 dias R$ 75,00",
+  },
+  {
+    img_src: "./assets/eyelashes/russo.jpeg",
+    title: "Volume Russo",
+    info: "O volume Russo é a técnica preferida por mulheres que realmente desejam falar com os olhos, pois apresenta como resultado um olhar absolutamente volumoso e glamouroso impossível de passar despercebido. A sua técnica permite o uso de 3 a 8 fios em cada cílios natural com total segurança e conforto.",
+    first_time: "Aplicação R$ 130,00",
+    eyelash_maintenance_1: "15 dias R$ 60,00",
+    eyelash_maintenance_2: "20 dias R$ 70,00",
+    eyelash_maintenance_3: "30 dias R$ 80,00",
+  },
+]

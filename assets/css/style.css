@@ -6,22 +6,23 @@
 
 :root {
   --text-color: rgba(205, 127, 50, 1);
-  --bg-url: url(./assets/bg-desktop-new.jpg);
+  --bg-url: url(../bg-desktop-new.jpg);
   --stroke-color: rgba(255, 165, 32, 0.5);
-  --surface-color: rgba(255, 255, 255, 0.05);
+  --surface-color: rgba(146, 1, 86, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(205, 127, 50, 0.2);
-  --switch-bg-url: url(./assets/sun.svg);
+  --switch-bg-url: url(../sun.svg);
+  --visibility-details: none;
 }
 
 .dark {
   --text-color: white;
-  --bg-url: url(./assets/bg-desktop-black.jpg);
+  --bg-url: url(../bg-desktop-black.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(255, 255, 255, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.1);
-  --switch-bg-url: url(./assets/moon-stars.svg);
+  --switch-bg-url: url(../moon-stars.svg);
 }
 
 body {
@@ -190,4 +191,45 @@ footer {
   to {
     left: 0;
   }
+}
+
+#details {
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 8px;
+}
+
+#details #info-text * {
+  padding: 5px 20px 0px 20px;
+}
+
+#details #box-info * {
+  display: var(--visibility-details);
+}
+
+#details #box-info #info-text * {
+  display: flex;
+}
+
+#box-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+#box-title:hover {
+  cursor: pointer;
+  background: var(--highlight-color);
+}
+
+#box-title.active {
+  background: var(--highlight-color);
+}
+
+#box-info img {
+  margin: 10px 0 10px 20px;
+  border: 1px solid var(--stroke-color);
+  height: 200px;
+  overflow: clip !important;
 }

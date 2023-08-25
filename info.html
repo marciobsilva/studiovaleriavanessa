@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio Valéria Vanessa - Mais informações</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./js/data.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <ul>
+        <li id="clone" style="display: none">
+          <div id="details">
+            <div id="box-title" onclick="showDetails(this)">
+              <h2 id="title"></h2>
+              <ion-icon name="chevron-down-outline" id="icon"></ion-icon>
+            </div>
+            <div id="box-info" style="display: flex">
+              <img src="" alt="Imagem do modelo dos cilios" />
+              <div id="info-text">
+                <p id="info"></p>
+                <span style="margin-top: 10px">Aplicação</span>
+                <p id="first_time_value" style="margin-left: 10px"></p>
+                <span style="margin-top: 10px">Manutenção</span>
+                <p id="eyelash_maintenance_1" style="margin-left: 10px"></p>
+                <p id="eyelash_maintenance_2" style="margin-left: 10px"></p>
+                <p id="eyelash_maintenance_3" style="margin-left: 10px"></p>
+                <span
+                  style="font-size: 10px; font-style: italic; margin: 10px 0px"
+                  >Na manutenção a cliente deverá está com 50% dos cílios</span
+                >
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./js/library/jquery.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
